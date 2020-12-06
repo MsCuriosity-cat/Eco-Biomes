@@ -68,6 +68,6 @@ over.each.element.M.B <- function(x){
 study_area_extended$Realms <- sapply(features, over.each.element.M.B)
 
 # export the extracted data to excel files
-write.xlsx(study_area_extended, "study_area_and_marine_realms.xlsx")
+write.xlsx(study_area_extended, "study_area_and_ecobiomes.xlsx")
 
 
