@@ -62,7 +62,7 @@ cleaned_data$long[134] <- -3.72
 
 # find the city, state and country with the revgeo
 cleaned_data2 <- cleaned_data %>%
-  mutate(places = revgeo(long, lat, provider = "google", API = "AIzaSyCACEeUKGMgeejAZlk7OK2bVgxM23yv4H8"))
+  mutate(places = revgeo(long, lat, provider = "google", API = "API key"))
 view(cleaned_data2)
 write.xlsx(cleaned_data2, "Cleaned/All_coordinates.xlsx")
 
